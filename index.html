@@ -5,7 +5,6 @@
 <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
 <style>
   body {
-    background: #121212;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -16,6 +15,14 @@
     width: 100%;
     margin: 0 auto;
   }
+  body {
+    background: #121212;
+  }
+  @media (prefers-color-scheme: light) {
+    body {
+      background: white;
+    }
+  }
 </style></head>
 <body>
 
@@ -23,4 +30,3 @@
 
 </body>
 </html>
-
