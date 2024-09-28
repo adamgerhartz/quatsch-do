@@ -11,16 +11,29 @@
     margin: 0;
     padding: 20px;
   }
-  zero-md {
+  .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
   }
-</style></head>
+  p {
+    font-size: 1.2rem;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
 <body>
 
-<zero-md src="https://raw.githubusercontent.com/adamgerhartz/quatsch-do/refs/heads/main/mdfiles/ab.md"></zero-md>
+  <div class="container">
+    <zero-md src="https://raw.githubusercontent.com/adamgerhartz/quatsch-do/refs/heads/main/mdfiles/ab.md"></zero-md>
+    <p><a href="/">Go back to Home</a></p>.
+  </div>
 
 </body>
 </html>
-
