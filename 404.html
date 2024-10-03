@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>404: Page Not Found</title>
 <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
 <style>
@@ -47,6 +48,20 @@
 
   <div class="container">
     <zero-md>
+      <template data-append>
+        <style>
+@media (max-width: 600px) {
+  .markdown-body {
+    font-size: 19px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .markdown-body {
+    font-size: 18px;
+  }
+}
+        </style>
+      </template>
       <script type="text/markdown">
 ## Page Not Found
 
